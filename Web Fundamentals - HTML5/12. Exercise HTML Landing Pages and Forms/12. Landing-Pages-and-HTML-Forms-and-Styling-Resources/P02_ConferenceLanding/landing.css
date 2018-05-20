@@ -1,0 +1,130 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "Roboto", sans-serif;
+}
+header{
+	background: linear-gradient(rgba(115,115,115,0.9), rgba(115,115,115,0.9)), url("img/header-bg.png") no-repeat;
+	background-size: cover;
+	height: 650px;
+}
+#menu{
+	width: 80%;
+	float: right;
+	text-align: right;
+}
+#menu ul li{
+	display: inline-block;
+	list-style: none;
+	margin-right: 35px;
+	margin-top: 35px;
+}
+#menu ul li a{
+	text-decoration: none;
+	font-weight: 900;
+	color: #fff;
+	text-transform: uppercase;
+}
+#menu ul li a:hover{
+	color: #ff6600;
+	font-weight: 900;
+}
+
+#firstHeading{
+	display: inline-block;
+	margin-top: 80px;
+}
+h1{
+	padding: 10px;
+	width: 405px;
+	color: #fff;
+	font-weight: lighter;
+	margin-left: 400px;
+	margin-top: 35px;
+	position: relative;
+}
+#firstHeading i{
+    position: absolute;
+    right: 470px;
+    top: 280px;
+    color: #fff;
+}
+#logo{
+	text-transform: uppercase;
+	font-weight: 900;
+	margin-left: 35px;
+	margin-bottom: 100px;
+	padding-top: 35px;
+	display: inline-block;
+	color: #fff;
+}
+#coose{
+	width: 100%;
+}
+#choose article{
+	display: inline-block;
+	width: 20%;
+	vertical-align: top;
+	margin: auto;
+	margin-top: 90px;
+	margin-left: 50px;
+	color: #fff;
+}
+#choose article i{
+	margin-bottom: 50px;
+}
+#main{
+	width: 100%;
+	text-align: center;
+}
+#main article{
+	display: inline-block;
+	width: 22%;
+	margin: 80px 0 50px 0;
+}
+#secondA, #image{
+	vertical-align: top;
+}
+#firstA h3{
+	text-align: right;
+	width: 65%;
+	display: inline-block;
+	margin-top: 50px;
+}
+#firstA p{
+	width: 60%;
+	text-align: right;
+	margin-top: 40px;
+	padding-right: 10px;
+	display: inline-block;
+	text-transform: capitalize;
+}
+#secondA{
+	text-align: left;
+	padding-right: 45px;
+}
+#secondA h4{
+	font-size: 18px;
+}
+hr{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#image{
+	position: relative;
+}
+#image::after{
+	background: #ff6600;
+	content: '';
+    position: absolute;
+    left: 64.5%;
+    right: -67.5%;
+    top: -74px;
+    bottom: -184px;
+    z-index: 1;
+    opacity: 0.9;
+}

@@ -1,0 +1,56 @@
+
+body{
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	font-weight: bold;
+}
+
+.header{
+	background: tomato;
+	order: 0;
+	width: 100%;
+	text-align: center;
+}
+.aside-1{
+	background: gold;
+	order: 1;
+	width: 25%;
+	text-align: center;
+}
+.aside-2{
+	background: hotpink;
+	order: 3;
+	width: 25%;
+	text-align: center;
+}
+.main-article{
+	background: deepskyblue;
+	order: 2;
+	width: 50%;
+}
+.footer{
+	background: lightgreen;
+	order: 4;
+	width: 100%;
+	text-align: center;
+}
+@media all and (max-width: 800px) {
+	.main-article{
+		order: 1;
+		width: 100%;
+	}
+	.aside-1{
+		order: 2;
+		width: 50%;
+	}
+	.aside-2{
+		order: 3;
+		width: 50%;
+	}
+}
+@media all and (max-width: 600px) {
+	.aside{
+		width: 100%;
+	}
+}

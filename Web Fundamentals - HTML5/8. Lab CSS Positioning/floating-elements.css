@@ -1,0 +1,21 @@
+div{
+	background: skyblue;
+	padding: 10px;
+	border-radius: 5px;
+}
+#left{
+	float: left;
+	text-align: left;
+}
+#right{
+	float: right;
+	text-align: right;
+}
+#no{
+	text-align: center;
+	width: 200px;
+	margin: auto;
+}
+div{
+	width: 150px;
+}

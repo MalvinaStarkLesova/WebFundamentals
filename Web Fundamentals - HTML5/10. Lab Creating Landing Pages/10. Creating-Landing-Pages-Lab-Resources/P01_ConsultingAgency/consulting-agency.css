@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family:"Montserrat", sans-serif;
+	
+}
+header{
+	text-align: center;	
+	background: url("images/Layer-759_02.jpg") no-repeat;
+	background-size: cover;
+	padding: 20px 0;
+	height: 600px;
+}
+nav{
+	background: #cc9766;
+	width: 1100px;
+	margin: auto;
+	margin-top: 20px;
+	line-height: 50px;
+	text-align: center;
+	opacity: 0.9;
+}
+nav ul li{
+	display: inline-block;
+	margin: 0px 35px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+header h1{
+	margin-top: 100px;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 50px;
+	font-weight: 900;
+}
+header p{
+	color: #fff;
+	width: 450px;
+	margin: auto;
+	font-weight: 900;
+	font-size: 24px;
+}
+#button{
+	background: #000033;
+	border: none;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 10px;
+	margin-top: 20px;
+	display: inline-block;
+}
+#button::after{
+	content: ">";
+	color: #cc9766;
+	font-weight: 500;
+}
+#button:hover{
+	background: #cc9766;
+	color: #000;
+	font-weight: bold;
+}
+#button:hover:after{
+	content: ">";
+	color: #000;
+	font-weight: 500;
+	font-weight: bold;
+}
+#services{
+	margin: auto;
+	text-align: center;
+}
+#services h2{
+	margin-top: 30px;
+	font-size: 30px;
+	font-weight: bolder;
+	margin-bottom: 40px;
+}
+#first-row{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+#first-row article, #second-row article{
+	display: inline-block;
+	width: 30%;
+	text-align: center;
+}
+#first-row article p,  #second-row article p{
+	display: inline-block;
+	width: 90%;
+	text-align: left;
+	margin-left: 50px;
+}
+#second-row{
+	margin-bottom: 30px;
+}
+i{
+	float: left;
+	border-radius: 50%;
+	background-color: #000033;
+	color: white;
+	padding: 10px;
+}
+#services h3{
+	margin-left: 50px;
+	text-align: left;
+
+}
+#baner{
+	background: url("images/steel-bg.jpg") no-repeat center;
+	text-align: center;
+	opacity: 0.8;
+	height: 80px;
+}
+#first-baner{
+	padding-top: 20px;
+	color: #802b00;
+	font-weight: bolder;
+}
+#second-baner{
+	padding-bottom: 20px;
+	font-weight: bolder;
+}
+#whyus{
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0, 0.6)),
+  	url('images/background-choose-us.jpg') no-repeat center;
+  	background-size: cover; 
+	height: 450px;
+	text-align: center;
+}
+#whyus h3{
+	text-align: center;
+	color: white;
+	padding-top: 110px;
+	padding-bottom: 30px;
+	font-size: 30px;
+}
+#whyus article{
+	border: 1px solid #802b00;
+	color: white;
+	width: 22%;
+	display: inline-block;
+	vertical-align: top;
+	height: 120px;
+}
+#whyus article h5{
+	text-align: center;
+}	
+.benefits article{
+	padding: 20px;
+	text-align: left;
+	margin: 0px 20px;
+}
+.benefits article h5{
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+#amanda article{
+	background: white;
+	opacity: 0.7;
+	width: 300px; 
+	float: right;
+	margin: 20px 15px 10px 5px; 
+}
+#amanda article div{
+	background:  #000033;
+	width: 200px;
+	height: 200px;
+}

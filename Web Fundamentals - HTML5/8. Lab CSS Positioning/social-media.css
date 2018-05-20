@@ -1,0 +1,34 @@
+article{
+	display: inline-block;
+	vertical-align: top;
+}
+footer{
+	text-align: center;
+	background: #282828;
+}
+h3{
+	text-transform: uppercase;
+	color: #fff;
+}
+#myaccount h3{
+	margin-left: 10px;
+}
+#extras h3{
+	margin-right: 60px;
+}
+#custom h3{
+	margin-left: 40px;
+}
+#getintouch h3{
+
+}
+ul li{
+	list-style: none;
+	text-align: left;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	text-transform: capitalize;
+
+}
